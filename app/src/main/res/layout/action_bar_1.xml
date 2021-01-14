@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="2dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:outlineProvider="bounds">
+
+        <ImageView
+            android:id="@+id/imageView_hearth"
+            android:layout_width="37dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="28dp"
+            android:contentDescription="button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/icon_arrow_up" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="137dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="86dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="32dp"
+            android:outlineProvider="bounds"
+            android:text="@string/select_brand"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="93dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="333dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="6dp"
+            android:text="@string/my_collection"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_hearth" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

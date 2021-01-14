@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CarAdvisorApp</string>
+    <string name="select_brand">Select brand</string>
+    <string name="my_collection">My collection</string>
+    <string name="models">Models</string>
+    <string name="average_price">Average price</string>
+    <string name="median_price">Mediane prijs</string>
+    <string name="standart_deviation">Standart deviation</string>
+    <string name="add_favorites">Add to favorites</string>
+    <string name="remove">Remove</string>
+</resources>

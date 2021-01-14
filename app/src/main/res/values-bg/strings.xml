@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarAdvisorApp</string>
+    <string name="add_favorites">Добави към любими</string>
+    <string name="average_price">Средна цена</string>
+    <string name="median_price">Медиана на цената</string>
+    <string name="models">Модели</string>
+    <string name="my_collection">Моята библиотека</string>
+    <string name="select_brand">Избери марка</string>
+    <string name="standart_deviation">Стандартна девиация</string>
+    <string name="remove">Премахни</string>
+</resources>

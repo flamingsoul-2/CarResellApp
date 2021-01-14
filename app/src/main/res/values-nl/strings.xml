@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarAdvisorApp</string>
+    <string name="select_brand">Selecteer merk</string>
+    <string name="my_collection">Mijn collectie</string>
+    <string name="models">modellen</string>
+    <string name="average_price">Gemiddelde prijs</string>
+    <string name="median_price">Mediane prijs</string>
+    <string name="standart_deviation">Standaardafwijking</string>
+    <string name="add_favorites">Toevoegen aan favorieten</string>
+    <string name="remove">Verwijderen</string>
+</resources>
